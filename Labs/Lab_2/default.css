@@ -1,0 +1,47 @@
+@media screen and (max-width: 479px){
+  body {
+    background-color: #505050;
+  }
+	#menu	{
+		text-align: center;
+	}
+
+	p {
+				background-color: gray;
+	}
+}
+
+@media screen and (min-width: 480px){
+  body {
+    background-color: lightgrey;
+  }
+	p {
+				margin-left: 10em ;
+				background-color: gray;
+	}
+
+	#menu	{
+		float: left;
+		text-align: left;
+		position: absolute;
+	}
+
+	img {
+			margin-left: 8em ;
+	  }
+}
+
+ul {
+	list-style: none;
+}
+
+#copyright {
+	background-color: white ;
+	font-style: italic;
+}
+
+img {
+    width: 100% ;
+		max-width: 75em;
+    height: auto;;
+  }

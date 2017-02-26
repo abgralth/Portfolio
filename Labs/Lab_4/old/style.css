@@ -1,0 +1,25 @@
+@media screen and (max-width: 479px){
+  body{
+    background-color: navy;
+  }
+}
+
+@media screen and (min-width: 480px){
+  body{
+    background-color: lightgrey;
+  }
+}
+
+/*p {
+  color: navy;
+  background-color: grey;
+}*/
+h1 {
+  font-style: oblique;
+  color: red;
+}
+
+div {
+  color: teal;
+  /*background-color: white;*/
+}

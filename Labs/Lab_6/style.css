@@ -1,0 +1,54 @@
+/*@media screen and (max-width: 479px){
+  body{
+    background-color: lightgrey;
+  }
+}
+
+@media screen and (min-width: 480px){
+  body{
+    background-color: black;
+  }
+}*/
+body {
+  background-color: black;
+}
+
+/*p {
+  color: navy;
+  background-color: grey;
+}*/
+h1 {
+  font-style: oblique;
+  color: red;
+}
+
+div {
+  color: teal;
+  /*background-color: white;*/
+}
+
+img {
+    float: left;
+    margin: 0.25em;
+    border: 0px solid lightgrey;
+    width: 20em ;
+    height: 20em;
+  }
+
+#tag {
+  width: 20em ;
+  height: 1.5em;
+  border: 0px;
+  background-color: #00FFFF;
+
+}
+
+#submit {
+  height: 1.5em;
+  border: 0px;
+  background-color: lightgrey;
+}
+
+.images:hover img {
+  -webkit-transform:scale(1.25); {
+}

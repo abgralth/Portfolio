@@ -1,0 +1,58 @@
+@media screen and (max-width: 479px){
+  body{
+    background-color: navy;
+  }
+}
+
+@media screen and (min-width: 480px){
+  body{
+    background-color: lightgrey;
+  }
+}
+
+/*p {
+  color: navy;
+  background-color: grey;
+}*/
+h1 {
+  font-style: oblique;
+  color: red;
+}
+
+div {
+  color: teal;
+  /*background-color: white;*/
+}
+
+
+
+nav {
+  background-color: rgb(250,250,250) ;
+  width: 640px ;
+  padding-bottom: 3px ;
+}
+
+#playButton {
+  background-color: rgb(250,250,250);
+  border: none ;
+  height: 32px ;
+  width: 32px ;
+  background-image: url(images/play.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pauseButton {
+  background-color: rgb(250,250,250);
+  border: none ;
+  height: 32px ;
+  width: 32px ;
+  background-image: url(images/stop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#playButton:active, #pauseButton:active {
+  position: relative;
+  top: 2px ;
+}
